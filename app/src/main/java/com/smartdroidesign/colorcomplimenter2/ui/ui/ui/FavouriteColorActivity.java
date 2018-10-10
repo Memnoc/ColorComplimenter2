@@ -20,9 +20,13 @@ public class FavouriteColorActivity extends AppCompatActivity {
         ConstraintLayout layout = findViewById(R.id.fav_col_layout);
         Resources resources = getResources();
         Intent intent = getIntent();
-
-        
         String colorReceived = intent.getStringExtra("color");
+
+
+        colorSelector(niceComment, layout, resources, colorReceived);
+    }
+
+    private void colorSelector(TextView niceComment, ConstraintLayout layout, Resources resources, String colorReceived) {
         if (colorReceived != null) {
             switch (colorReceived) {
                 case "pink":
