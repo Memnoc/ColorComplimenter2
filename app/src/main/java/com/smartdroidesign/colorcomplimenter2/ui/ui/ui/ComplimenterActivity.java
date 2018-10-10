@@ -13,7 +13,6 @@ public class ComplimenterActivity extends AppCompatActivity {
 
 
     private TextView colorInputField;
-    private Button goButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,7 @@ public class ComplimenterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_complimenter);
 
 
-        goButton = findViewById(R.id.goButton);
+        Button goButton = findViewById(R.id.goButton);
         colorInputField = findViewById(R.id.colorField);
 
 
