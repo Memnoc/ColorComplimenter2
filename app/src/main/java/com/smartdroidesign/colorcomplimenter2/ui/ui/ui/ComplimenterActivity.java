@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.smartdroidesign.colorcomplimenter2.R;
+import com.smartdroidesign.colorcomplimenter2.ui.ui.presenter.FavouriteColorActivity;
 
 public class ComplimenterActivity extends AppCompatActivity {
 

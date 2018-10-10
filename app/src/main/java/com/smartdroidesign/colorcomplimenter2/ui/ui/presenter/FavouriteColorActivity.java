@@ -1,4 +1,4 @@
-package com.smartdroidesign.colorcomplimenter2.ui.ui.ui;
+package com.smartdroidesign.colorcomplimenter2.ui.ui.presenter;
 
 import android.content.Intent;
 import android.content.res.Resources;
