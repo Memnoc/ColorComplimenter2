@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ColorComplimenter2</string>
+    <string name="pink_comment">Pink is a nice color!</string>
+    <string name="red_comment">The color of hell</string>
+    <string name="orange_comment">Is the new black!</string>
+    <string name="yellow_comment">Like the sun</string>
+    <string name="chartreuse_comment">Don\'t even know how to pronounce this</string>
+    <string name="green_comment">The color of hope!</string>
+    <string name="spring_green_comment">Kinda Green</string>
+    <string name="cyan_comment">CyanogenMode FTW</string>
+    <string name="azure_comment">Allure Azure</string>
+    <string name="blue_comment">Blue as the sky</string>
+    <string name="violet_comment">Sort of purle, you know</string>
+    <string name="magenta_comment">More violet than purple LOL</string>
+    <string name="white_comment">Simply White</string>
+</resources>
