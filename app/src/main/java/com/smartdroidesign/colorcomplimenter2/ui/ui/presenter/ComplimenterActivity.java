@@ -1,4 +1,4 @@
-package com.smartdroidesign.colorcomplimenter2.ui.ui.ui;
+package com.smartdroidesign.colorcomplimenter2.ui.ui.presenter;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.smartdroidesign.colorcomplimenter2.R;
-import com.smartdroidesign.colorcomplimenter2.ui.ui.presenter.FavouriteColorActivity;
+import com.smartdroidesign.colorcomplimenter2.ui.ui.model.FavouriteColorActivity;
 
 public class ComplimenterActivity extends AppCompatActivity {
 

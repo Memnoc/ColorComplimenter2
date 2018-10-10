@@ -1,4 +1,4 @@
-package com.smartdroidesign.colorcomplimenter2.ui.ui.presenter;
+package com.smartdroidesign.colorcomplimenter2.ui.ui.model;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -22,9 +22,9 @@ public class FavouriteColorActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String colorReceived = intent.getStringExtra("color");
 
-
         colorSelector(niceComment, layout, resources, colorReceived);
     }
+
 
     private void colorSelector(TextView niceComment, ConstraintLayout layout, Resources resources, String colorReceived) {
         if (colorReceived != null) {
